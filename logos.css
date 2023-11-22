@@ -1,0 +1,33 @@
+@import url('https://fonts.bunny.net/css?family=space-mono:400');
+
+.thml-logo {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: -0.075em;
+    font-size: 1em;
+    height: 1em;
+}
+
+.thml-logo::before {
+    display: block;
+    float: left;
+    content: 'Typer';
+    color: #00007f;
+    background-color: #0000;
+    width: fit-content;
+    height: 1em;
+    transform: translateY(-0.125em);
+}
+
+.thml-logo::after {
+    display: block;
+    float: left;
+    content: 'Hext';
+    color: #fff;
+    background-color: #00007f;
+    height: 1.3em;
+    width: fit-content;
+    padding-right: 0.5em;
+    margin-left: 0.1em;
+    line-height: 1.25em;
+}
